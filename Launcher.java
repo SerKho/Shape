@@ -5,16 +5,12 @@ package Shape;
  */
 public class Launcher {
     public static void main(String[] args) {
-        Shape shape = new Shape();
-        Circle circle = new Circle();
-        Triangle triangle = new Triangle();
-        Rectangle rectangle = new Rectangle();
-        Shape s = new Circle();
+        Shape[] s = new Shape[3];
+        s[0] = new Circle();
+        s[1] = new Triangle();
+        s[2] = new Rectangle();
 
-        shape.draw();
-        circle.draw();
-        triangle.draw();
-        rectangle.draw();
-        s.draw();
+
+        ShapesTemplate a = new ShapesTemplate(s);
     }
 }
