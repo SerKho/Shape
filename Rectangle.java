@@ -12,7 +12,7 @@ public class Rectangle extends Shape {
         g.setColor(new java.awt.Color(0, 25, 115));
         g.drawRect(200, 50, 80, 60);
         g.setColor(new java.awt.Color(105, 14, 25));
-        g.fillRect(200, 150, 80, 60);
+        g.fillRect(200, 120, 80, 60);
         System.out.println("Rectangle was drawn.");
     }
 }
